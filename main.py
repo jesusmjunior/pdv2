@@ -1,6 +1,6 @@
 # main.py
 import streamlit as st
-from .pdv2.auth import autenticar_usuario
+from .pdv2.auth import auth.py
 from .pdv20.cadastro_produto import render_cadastro_produto
 from .pdv2.cadastro_cliente import render_cadastro_cliente
 from .pdv2.registro_venda import render_registro_venda
